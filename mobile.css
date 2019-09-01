@@ -1,0 +1,60 @@
+/* Mobile Styles */
+@media only screen and (max-width: 960px) {
+    body {
+        /* height: 100%; */
+        background: #182f54;
+    }
+    
+    .app {
+        /* Make app a flexbox container */
+        display: flex; 
+        flex-direction: column;
+        margin-top: 15vh;
+        margin-bottom: 15vh; 
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0%;
+        left: 5%;
+    
+        z-index: 1000;
+    
+        width: 90%;
+        
+        /* padding: 15px 30px 15px 30px; */
+        border-radius: 0% 0% 15px 15px;
+        
+        background: #e64789;
+    }
+
+    .navbar .row {
+        padding: 15px 30px 15px 30px;
+    }
+
+    .left-fixed {
+        width: 80vw;
+        height: 400px;
+        
+        margin: 0 auto;
+        margin-bottom: 10vh;
+    
+        background: #ddd;
+        color: #42536e !important;
+    }
+    
+    .right-card {
+        width: 80vw;
+    
+        margin: 0 auto;
+        /* padding: 25px;
+        padding-top: 15px; */
+        border-radius: 15px;
+    
+        background: #eee;
+    }
+    
+    .content {
+        padding: 25px;
+    }
+}
